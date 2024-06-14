@@ -11,6 +11,8 @@ pub static MEMO_TOP_UP_CANISTER: Memo = Memo(1347768404_u64);
 pub static ICP_TRANSACTION_FEE: Tokens = Tokens::from_e8s(10000);
 
 /// Converts icp tokens into cycles and deposits them into the calling canister. It's assumed the calling canister has sufficient ICP tokens.
+/// Example:
+///
 /// ```rust
 /// use ic_ledger_types::Tokens;
 /// use mint-cycles::mint-cycles;
