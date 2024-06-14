@@ -49,7 +49,8 @@ This main canister can be used for automatically building and deploying other ca
 2. Convert Tokens to Cycles: Call mint_cycles with the desired amount of tokens to convert them into cycles.
 3. Deploy Canisters: Use the cycles to build and deploy other canisters programmatically.
 
-Source Code
+# Source Code
+
 For more details and to contribute, please refer to the source code.
 
 This library aims to simplify the process of converting ICP tokens into cycles for dynamic canister management and deployment. We hope this helps, and we look forward to your contributions.
