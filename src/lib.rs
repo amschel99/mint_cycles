@@ -1,3 +1,4 @@
+mod cmc;
 mod errors;
 mod ledger;
 pub mod rust_declarations {
